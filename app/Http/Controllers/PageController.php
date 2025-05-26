@@ -24,7 +24,7 @@ class PageController extends Controller
             'title' => 'Consulenza Strategica',
             'price' => 2.90,
             'description' => 'sdadadf fd dasdas',
-            'image' => 'images/giove.jpg'
+            'image' => '/images/giove.jpg'
         ],
         [
             'id' => 3,
@@ -45,6 +45,7 @@ class PageController extends Controller
     ];
     public function homepage()
     {
+        //resources/views/homepage.blade.php
         return view('homepage');
     }
 
@@ -64,7 +65,10 @@ class PageController extends Controller
         foreach ($this->services as $element) {
 
             if ($service == $element['slug']) {
+
                 return view('dettaglio', ['service' => $element]);
+                //return view('dettaglio', compact('element'));
+
             }
         }
 
