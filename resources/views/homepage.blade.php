@@ -6,9 +6,10 @@
     <section class="container py-5">
         <div class="row align-items-center">
             <div class="col-md-6">
-                <h1 class="display-4 fw-bold mb-4">Soluzioni Innovative per la Crescita del Tuo Business</h1>
+                <h1 class="display-4 fw-bold mb-4 testo-rosso">Francesco Soluzioni Innovative per la Crescita del Tuo
+                    Business</h1>
                 <p class="lead">
-                    Siamo una realtà specializzata nell'offerta di servizi ad alto valore aggiunto, orientati a
+                    Siamo noi una realtà specializzata nell'offerta di servizi ad alto valore aggiunto, orientati a
                     supportare imprese e professionisti nel percorso di digitalizzazione e sviluppo competitivo. La
                     nostra missione consiste nell'integrare conoscenze avanzate e tecnologie emergenti, promuovendo
                     l’efficienza, la sostenibilità e l’innovazione strategica.
